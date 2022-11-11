@@ -1,0 +1,60 @@
+@import url(https://fonts.bunny.net/css?family=codystar:300,400|comfortaa:300,400,500,600,700|fredericka-the-great:400);
+
+:root {
+  --goldhov: #9e6329;
+  --header-gray: #252525;
+  --dark-gray: #131313;
+  --pink: #ed617a;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #666;
+  font-family: "Comfortaa", "Codystar", "Fredericka the Great", display;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  cursor: url(images/cursor_kludd_s.png) 0 0, auto;
+}
+
+header {
+  background-color: var(--header-gray);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: column;
+  color: white;
+  font-weight: 300;
+  margin: auto;
+  width: 100%;
+  padding: 0 3rem;
+}
+
+h1 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+a {
+  text-decoration: none;
+  color: pink;
+}
+
+a:hover {
+  color: mediumspringgreen;
+  cursor: url(images/cursor_neon_s.png) 0 0, auto;
+}
+
+li {
+  margin-left: 1rem;
+}
